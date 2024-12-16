@@ -1,0 +1,51 @@
+/* Imagen de fondo */
+body {
+    background-image: url('/imagenes/3d.jpg'); /* Cambia esto por la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form-box {
+    background-color: rgba(248, 249, 250, 0.9); /* Fondo semitransparente */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos del botón rojo */
+.btn-red {
+    background-color: #dc3545; /* Color rojo predeterminado */
+    color: white;
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+}
+
+.btn-red:hover {
+    background-color: #c82333; /* Un tono más oscuro de rojo al pasar el cursor */
+}
+
+.btn-red:active {
+    background-color: #a71d2a; /* Un tono más oscuro cuando se hace clic */
+    border-color: #a71d2a;
+    box-shadow: none;
+}

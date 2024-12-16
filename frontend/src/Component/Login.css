@@ -1,0 +1,93 @@
+/* Estilo para el fondo de la página de login */
+.login-bg {
+  background-image: url('/imagenes/3d.jpg'); /* La ruta comienza desde la raíz del servidor */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Fondo oscuro transparente detrás del cuadro de inicio de sesión */
+.login-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(250, 250, 250, 0.596); /* Filtro oscuro */
+  z-index: 1; /* Aseguramos que esté detrás del formulario */
+}
+
+/* Estilo para la tarjeta (formulario de login) con transparencia */
+.login-card {
+  position: relative;
+  z-index: 2; /* Asegura que el cuadro esté por encima del fondo */
+  background-color: rgba(255, 255, 255, 0.85); /* Transparencia de la tarjeta */
+  border-radius: 10px;
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); */ /* Sombra eliminada */
+  width: 22rem; /* Ancho fijo del cuadro */
+  padding: 2rem;
+}
+
+/* Estilo para el logo */
+.logo-img {
+  max-width: 100px; /* Ajusta el tamaño del logo */
+}
+
+/* Estilos generales */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.text-danger {
+  color: red;
+}
+
+/* Estilo para el formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ajuste de los botones para que ocupen el ancho completo */
+.d-grid {
+  width: 100%;
+}
+
+/* Ajustes adicionales */
+.card {
+  margin: 1rem;
+  border: none;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input.form-control {
+  height: 3rem; /* Aumentar la altura de los inputs */
+  font-size: 1rem;
+}
+
+h1, h3 {
+  font-weight: bold;
+  color: #333; /* Color de los títulos */
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+
+  

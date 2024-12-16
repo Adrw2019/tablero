@@ -1,0 +1,37 @@
+/* TareaForm.css */
+
+/* Asegúrate de que el formulario ocupe todo el ancho disponible */
+.container-fluid {
+    max-width: 600px; /* Puedes ajustar este valor según lo desees */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px; /* Añade algo de espacio interno */
+    min-height: 400px; /* Ajusta esta altura mínima según tus necesidades */
+}
+
+/* Estilo para el botón */
+.btn {
+    background-color: #ff0000; /* Cambia el color según tus preferencias */
+    color: white;
+}
+
+/* Estilo para el textarea para que ocupe más espacio */
+textarea {
+    height: 100px; /* Ajusta la altura según lo necesites */
+}
+
+/* Estilo de etiquetas */
+label {
+    font-weight: bold; /* Puedes hacer las etiquetas más prominentes */
+    margin-bottom: 5px; /* Añade espacio entre la etiqueta y el control */
+}
+
+/* Asegúrate de que los select y textarea tengan el mismo tamaño que los inputs de texto */
+.form-control, .form-select {
+    width: 100%; /* Para asegurarte de que ocupen todo el espacio */
+}
+
+/* Ajustes para la imagen */
+img {
+    max-width: 100%;  /* Ajusta el ancho máximo a 100% del contenedor */
+    height: auto;     /* Mantiene la relación de aspecto */
+}

@@ -1,0 +1,130 @@
+/* EtiquetaCRUD.css */
+
+/* Estilo para el contenedor principal */
+body {
+    background-image: url('/imagenes/3d.jpg'); /* Cambia esta ruta según la ubicación real */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo para el título de "Gestión de Etiquetas" */
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo para el formulario de creación y actualización */
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Estilo para el botón Crear/Actualizar */
+  button[type="submit"] {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c82333;
+  }
+  
+  /* Estilo para el botón de Cancelar */
+  button[type="button"] {
+    background-color: #6c757d; /* Gris */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Estilo para la lista de etiquetas */
+  .etiqueta-item {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .etiqueta-item h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #555;
+  }
+  
+  button.edit-btn {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  button.delete-btn {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Estilo para mensajes de error */
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
